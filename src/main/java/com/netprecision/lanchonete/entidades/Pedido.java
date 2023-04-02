@@ -18,4 +18,8 @@ public class Pedido {
     private long id;
     private double valorTotal;
     private Map<Integer, Integer> listaProdutosQuantidade;
+
+    public Pedido(long id) {
+        this.id = id;
+    }
 }
